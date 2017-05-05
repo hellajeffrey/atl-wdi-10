@@ -31,7 +31,7 @@ var timerUI = {
 
   },
   drawLitFuses: function(timerValue){
-    console.log('TRAVIS');
+    console.log('Jeffrey');
   },
   drawCrawlers: function(timerValue){
     //// MVP
