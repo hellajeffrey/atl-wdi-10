@@ -1,12 +1,16 @@
 window.onload = function() {
   var stopButton = document.querySelector('#stopButton');
   var slowButton = document.querySelector('#slowButton');
+  var goButton = document.querySelector('#goButton');
 
   var stopLight = document.querySelector('#stopLight');
   var slowLight = document.querySelector('#slowLight');
+  var goLight = document.querySelector('#goLight');
 
   stopButton.addEventListener('click', trafficLight.illuminateRed);
   slowButton.addEventListener('click', trafficLight.illuminateYellow);
+  goButton.addEventListener('click', trafficLight.illuminateGreen);
+
 }
 
 
@@ -23,8 +27,17 @@ var trafficLight = {
     slowLight.style.background = 'blue';
   },
 
-  clearLights: function() {
-    stopLight.style.background = 'black';
+  illuminateGreen: function(event) {
+    trafficLight.clearLights();
 
-  }
+    goLight.style.background = 'green';
+  },
 }
+
+
+
+
+
+
+
+

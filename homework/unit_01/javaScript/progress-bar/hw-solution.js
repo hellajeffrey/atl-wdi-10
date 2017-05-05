@@ -6,15 +6,19 @@ var timerUI = {
   drawNumericDisplay: function(timerValue){
     //// MVP
     document.getElementById('numeric-display').textContent = timerValue;
-    //// REACH
-    // var numericDisplay = document.getElementById('numeric-display');
-    // numericDisplay.textContent = timerValue;
-    // if (timerValue <= 10) {
-    //   numericDisplay.style.color = 'red';
-    //   var newSize = (1.5 * Math.pow(1.05, 11 - timerValue)).toFixed(2);
-    //   numericDisplay.style.fontSize = newSize + 'em';
-    // }
-  },
+    // REACH
+   var numericDisplay = document.getElementById('numeric-display');
+   numericDisplay.textContent = timerValue;
+     if (timerValue <= 10) {
+     numericDisplay.style.color = 'red';
+     var newSize = (1.5 * Math.pow(1.05, 11 - timerValue)).toFixed(2);
+     numericDisplay.style.fontSize = newSize + 'em';
+    }
+
+
+
+
+
   drawProgressBars: function(timerValue){
     //// MVP
     var timeElapsed = 100 - timerValue;
