@@ -1,41 +1,31 @@
-# A Closer Look at npm
-- Take a look at npm's [most starred packages](https://www.npmjs.com/browse/star) on the npmjs website
-- Record your answers below
-- Bonus points: formatting this into a table
+most depended-upon packages
+lodash
 
-### The 6 highest-starred npm packages are:
+Lodash makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc.
 
-# Library 1 Name
+Downloads last month: 47million
+request
 
-### Description:
-brief brief description here
+Simplified HTTP request client
 
-### Total Downloads last month:
+Downloads last month: 27million
+async
 
-# Library 2 Name
+High-order functions and common patterns for asyncronous code
 
-### Description:
-brief description here
+Downloads last month: 44million
+express
 
-### Total Downloads last month:
+Fast, unopinionated, minimalist web framework
 
-# Library 3 Name
+Downloads last month: 12million
+chalk
 
-### Description:
-brief description here
+Terminal string styling done right. Much color.
 
-### Total Downloads last month:
+Downloads last month: 21million
+bluebird
 
-# Library 4 Name
+Full featured Promises/A+ implementation with exceptionally good performance
 
-### Description:
-brief description here
-
-### Total Downloads last month:
-
-# Library 5 Name
-
-### Description:
-brief description here
-
-### Total Downloads last month:
+Downloads last month: 15million
