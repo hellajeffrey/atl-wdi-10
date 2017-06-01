@@ -44,7 +44,7 @@ const CounterCollection = {
     });
   }
 };
-
+//I understand these fucntions well, and can explain them line-by-line.
 // UI //
 const Presenter = {
   insertCounterComponent: function(newCountId){
