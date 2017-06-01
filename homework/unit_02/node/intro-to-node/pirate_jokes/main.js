@@ -1,4 +1,3 @@
-//require notifier package
 var notifier = require('node-notifier');
 
 //create notifier object
