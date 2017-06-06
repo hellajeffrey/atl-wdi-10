@@ -1,0 +1,22 @@
+<h1>Users</h1>
+
+<ul>
+  {{# each userList}}
+        <li>
+          <div>First Name: {{first_name}}</div>
+          <div>Last Name: {{last_name}}</div>
+          <div>Email: {{email}}</div>
+          <div>Created At: {{created_at}}</div>
+          <div>Items:
+              <ul>
+                  {{# each items}}
+                      <li>Name: {{name}}</li>
+                  {{/ each}}
+              </ul>
+          </div>
+        </li>
+        <br>
+  {{/ each}}
+</ul>
+
+<div><a href="/users/new">Create a New User</a></div>
