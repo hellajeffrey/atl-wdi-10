@@ -37,14 +37,21 @@ router.get('/:id', function(req, res){
 //==============================
 // CREATE
 //==============================
-
+router.get('/', function (req, res) {
+  res.send('HI MOM')
+});
 //==============================
 // UPDATE
 //==============================
-
+router.put('/:id/edit', function (req, res) {
+  res.send('Got a put request at /user')
+});
 //==============================
 // DESTROY
 //==============================
+router.delete('/:id', function (req, res) {
+  res.send('Got a delete request at /user')
+});
 
 //==============================
 // EXPORTS
