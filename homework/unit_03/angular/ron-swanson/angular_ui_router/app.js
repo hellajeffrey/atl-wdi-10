@@ -5,7 +5,10 @@ var app = express();
 var mongoose = require('mongoose');
 var port = 3000;
 var path = require('path');
+<<<<<<< HEAD
 
+=======
+>>>>>>> 947c5f9452028118ccb94b116e893b6e82047144
 
 mongoose.connect('mongodb://localhost:27017/angular-hw-app');
 
