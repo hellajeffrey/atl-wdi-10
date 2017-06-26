@@ -20,8 +20,30 @@ var Tamagotchi = function(name, creatureType){
 
   this.yawn = function() {
     this.restedness--;
-    console.log(this.name + ' has current restedness = ' +this.restedness);
+    console.log(this.name + ' has current restedness = ' + this.restedness);
   };
+
+  this.start = function(){
+    console.log("Starting " + this.name);
+    var self = this;
+    this.hungerTimer = setInterval(function() {
+      self.cry();
+    }, 6000);
+    this.yawnTimer = setInterval(function() {
+      self.yawn();
+    }, 10000);
+    this.sickTimer = setInterval(function() {
+      self.puke();
+    }, 25000);
+  };
+
+  this.stop = function() {
+    console.log("Stopping " + this.name);
+    clearInterval(this.hungerTimer);
+    clearInterval(this.yawnTimer);
+    clearInterval(this.sickTimer);
+  };
+};
 
 //create new Tamagotchis
 var constructedObject1 = new Tamagotchi();
