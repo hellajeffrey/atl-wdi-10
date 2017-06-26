@@ -11,8 +11,17 @@ var Tamagotchi = function(name, creatureType){
     this.foodInTummy--;
     console.log(this.name + ' has current food in tummy = ' + this.foodInTummy);
     console.log("WAHH!!!");
-  }
-}
+  };
+
+  this.puke = function() {
+    this.foodInTummy--;
+    console.log(this.name + ' has current food in tummy = ' + this.cry);
+  };
+
+  this.yawn = function() {
+    this.restedness--;
+    console.log(this.name + ' has current restedness = ' +this.restedness);
+  };
 
 //create new Tamagotchis
 var constructedObject1 = new Tamagotchi();
