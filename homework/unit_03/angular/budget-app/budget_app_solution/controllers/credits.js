@@ -1,3 +1,4 @@
+I LOVE GA!
 var Credit = require('../models/credit');
 var express = require('express');
 var router = express.Router();
