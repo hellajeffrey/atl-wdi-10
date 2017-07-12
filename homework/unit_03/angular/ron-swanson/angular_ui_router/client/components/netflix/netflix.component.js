@@ -1,3 +1,4 @@
+I LOVE GA SO MUCH
 const controller = require('./netflix.controller.js');
 const template = require('./netflix.html');
 

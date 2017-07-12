@@ -1,3 +1,5 @@
+I LOVE GA SO MUCH
+
 console.log("Netflix Controller works!");
 
 //your NeCriminalsController.$inject = ['CriminalsService'];
