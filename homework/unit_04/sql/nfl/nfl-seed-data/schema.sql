@@ -1,3 +1,5 @@
+THIS WAS FUN
+
 drop table if exists players;
 drop table if exists teams;
 
